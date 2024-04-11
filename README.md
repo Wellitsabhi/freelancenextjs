@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Learnings from the project
+-  First,  Data Modelling  is important, where is data stored, what type of data it is.
+-  NextJS runs on edge time , so it doesn't  know , if app's runnng for first time or not.  ``` Check how UserModel is exported ```
+-  ```Zod``` provides runtime schema validation for typescript. Schema validation confirms that data adheres to a standard defined by the developer
+- for database , folder name should be  __`lib`__
+
+
 ## Getting Started
 
 First, run the development server:
