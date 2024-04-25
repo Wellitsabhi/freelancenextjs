@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 -  NextJS runs on edge time , so it doesn't  know , if app's runnng for first time or not.  ``` Check how UserModel is exported ```
 -  ```Zod``` provides runtime schema validation for typescript. Schema validation confirms that data adheres to a standard defined by the developer
 - for database , folder name should be  __`lib`__
-- for api , folder name should be __`api'__ in app
+- for api , folder name should be __`api'__ in app, and file name should be __`route.ts`__
 
 ## Getting Started
 
