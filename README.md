@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 -  ```Zod``` provides runtime schema validation for typescript. Schema validation confirms that data adheres to a standard defined by the developer
 - for database , folder name should be  __`lib`__
 - for api , folder name should be __`api`__  in app, and file name should be  __`route.ts`__
+- for Authentication, make folder __`[...nextauth]`__ inside __`auth`__ folder, which is inside __`app`__ folder. and Learn about Provider and Callback 
 
 ## Getting Started
 
